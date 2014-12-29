@@ -1,0 +1,19 @@
+ask him
+1)
+
+I assume I have enerated sinus arrival rate not sinus intergeneration time
+how: generate a variable with poisson distribution a
+
+if # of arrivals (lambda) are poisson distribution then inter arrival time is exponentially distributed
+for each t get a sample from a poison distribution of poison(t)----
+    this means changing the generator parametrs every time
+    see if the relationship between lambda and poisoon(lambda) is linear, i mean 
+       if lambda2/lamda1=mean(poisson2)/mean(poisson1) and variance 
+       i mean if lambda moves linearly then mean of poisson move linearly
+    what about exponentiall distribution?
+
+
+2) how to find clusters at runtime
+
+
+3) should i set service time over time or service time over packet?
